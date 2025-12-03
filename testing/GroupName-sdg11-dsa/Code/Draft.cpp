@@ -10,9 +10,9 @@ struct Family {
     char type; // S/P/G/N
 };
 
-vector<Family> families;                 // Main family list
-vector<pair<string, int>> foodPacks;     // Food packs
-queue<Family> ayudaQueue;                // Queue now stores Family struct
+vector<Family> families;                
+vector<pair<string, int>> foodPacks;     
+queue<Family> ayudaQueue;                
 
 // Check duplicate family
 bool isDuplicate(string name)
@@ -290,3 +290,4 @@ int main()
 
     return 0;
 }
+
