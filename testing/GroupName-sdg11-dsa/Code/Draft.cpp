@@ -2,7 +2,7 @@
 #include <vector>
 #include <queue>
 #include <algorithm>
-using namespace std;
+using namespace std
 
 // Define a Family struct
 struct Family {
@@ -290,4 +290,5 @@ int main()
 
     return 0;
 }
+
 
