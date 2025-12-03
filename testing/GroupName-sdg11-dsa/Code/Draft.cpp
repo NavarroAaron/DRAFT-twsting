@@ -11,7 +11,7 @@ struct Family {
 };
 
 vector<Family> families;                
-vector<pair<string, int>> foodPacks;     
+vector<pair<string, int>> foodPacks;
 queue<Family> ayudaQueue;                
 
 // Check duplicate family
@@ -53,7 +53,7 @@ void registerFamily()
     }
 
     char type;
-    cout << "Is this family (S)enior / (P)WD / (G)Pregnant / (N)ormal? ";
+    cout << "Is this family (S)enior / (P)WD / (G)Pregnant / (N) ";
     cin >> type;
 
     Family fam = {name, type};
@@ -290,5 +290,6 @@ int main()
 
     return 0;
 }
+
 
 
